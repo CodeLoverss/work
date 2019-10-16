@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{
+	background:#f0f3f5;
+}
+.top{
+	color:red;
+}
+.seven_day_weather{
+	background:white;
+	height:280px;
+	padding:5px;
+	margin-top:150px;
+	margin-left:20%;
+	text-align:center;
+	width:60%;
+	/* border:solid 1px red; */
+}
+.oneday{
+	float:left;
+	width:14%;
+	/* border:solid 1px blue; */
+	height:200px;
+}
+/* 奇偶选择器 */
+.oneday:nth-child(odd)
+{
+background:#B0E2FF;
+}
+.oneday:nth-child(even)
+{
+background:#63B8FF;
+}
+
+.hour_weather{
+	height:200px;
+	margin-top:5px;
+	background:white;
+	padding:5px;
+	margin-left:20%;
+	text-align:center;
+	width:60%;
+}
+.onehour{
+	float:left;
+	width:25%;
+	height:180px;
+}
