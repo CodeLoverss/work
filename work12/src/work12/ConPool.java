@@ -8,7 +8,7 @@ public class ConPool {
 	private List<MyCon> freeCons=new ArrayList<MyCon> ();
 	private List<MyCon> buzyCons=new ArrayList<MyCon> ();
 	private int max=50000;
-	private int min=2;
+	private int min=100;
 	private int current=0;
 	private static ConPool instance;
 	
